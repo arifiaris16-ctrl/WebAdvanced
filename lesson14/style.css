@@ -1,0 +1,42 @@
+article p {
+    color: blue;
+    font-size: 30px;
+    text-decoration:underline;
+    
+}
+
+article > p{
+    background-color:red;
+
+}
+
+article ~ p {
+    background-color: blueviolet;
+    padding: 20px;
+}
+article+ p {
+    background-color: orange;
+}
+
+input :out-of-range{
+    background-color: black;
+    border: 3px;
+}
+
+span:first-of-type{
+    background-color: blanchedalmond;
+    border: 3px;
+}
+
+form{
+
+}
+
+input:invalid{
+    margin: 20px;
+}
+
+input:valid{
+    border: 20px;
+    color: black;
+}
